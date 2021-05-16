@@ -1,0 +1,18 @@
+#copyright DevITgroup http://dev-itgroup.com
+
+RewriteEngine On
+RewriteRule ^accueil$ index.php
+RewriteRule ^_table$ _table.php
+RewriteRule ^clients$ client.php
+RewriteRule ^utilisateurs$ user.php
+RewriteRule ^fournisseurs$ fournisseur.php
+RewriteRule ^livreurs$ livreur.php
+RewriteRule ^devis$ devis.php
+RewriteRule ^Imprimer_devis$ devis_imprimer.php
+RewriteRule ^factures$ facture.php
+RewriteRule ^Imprimer_facture$ facture_imprimer.php
+RewriteRule ^bonDeCommande$ bon_de_commande.php
+RewriteRule ^bonDeSortie$ bon_de_sortie.php
+RewriteRule ^Imprimer_bs$ bs_imprimer.php
+RewriteRule ^Imprimer_bc$ bc_imprimer.php
+
